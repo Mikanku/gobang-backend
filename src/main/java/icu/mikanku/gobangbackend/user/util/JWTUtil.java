@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class JWTUtil {
 
-    /** 防止多个实例 */
+    /** ban constructor */
     private JWTUtil() {}
 
     private static final byte[] SECRET;
